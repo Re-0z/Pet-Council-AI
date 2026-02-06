@@ -52,7 +52,7 @@ def load_resnet():
 # Initialize Global Models
 brain1 = load_efficientnet()
 brain2 = load_resnet()
-ai_brain = init_brain() # Your existing AI brain
+ai_brain = init_brain() # Existing AI brain
 
 # --- 5. TTA LOGIC ---
 def process_image_tta(image_path):
